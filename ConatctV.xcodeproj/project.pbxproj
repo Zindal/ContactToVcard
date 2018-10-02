@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184ABE882163720B0050D4C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABE872163720B0050D4C5 /* AppDelegate.swift */; };
+		184ABE8A2163720B0050D4C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABE892163720B0050D4C5 /* ViewController.swift */; };
+		184ABE8D2163720B0050D4C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ABE8B2163720B0050D4C5 /* Main.storyboard */; };
+		184ABE902163720B0050D4C5 /* ConatctV.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184ABE8E2163720B0050D4C5 /* ConatctV.xcdatamodeld */; };
+		184ABE92216372100050D4C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184ABE91216372100050D4C5 /* Assets.xcassets */; };
+		184ABE95216372100050D4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ABE93216372100050D4C5 /* LaunchScreen.storyboard */; };
+		184ABEA0216372100050D4C5 /* ConatctVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABE9F216372100050D4C5 /* ConatctVTests.swift */; };
+		184ABEAB216372100050D4C5 /* ConatctVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABEAA216372100050D4C5 /* ConatctVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184ABE9C216372100050D4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184ABE7C2163720B0050D4C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184ABE832163720B0050D4C5;
+			remoteInfo = ConatctV;
+		};
+		184ABEA7216372100050D4C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184ABE7C2163720B0050D4C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184ABE832163720B0050D4C5;
+			remoteInfo = ConatctV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184ABE842163720B0050D4C5 /* ConatctV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConatctV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ABE872163720B0050D4C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184ABE892163720B0050D4C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184ABE8C2163720B0050D4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184ABE8F2163720B0050D4C5 /* ConatctV.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConatctV.xcdatamodel; sourceTree = "<group>"; };
+		184ABE91216372100050D4C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184ABE94216372100050D4C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184ABE96216372100050D4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184ABE9B216372100050D4C5 /* ConatctVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConatctVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ABE9F216372100050D4C5 /* ConatctVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConatctVTests.swift; sourceTree = "<group>"; };
+		184ABEA1216372100050D4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184ABEA6216372100050D4C5 /* ConatctVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConatctVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184ABEAA216372100050D4C5 /* ConatctVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConatctVUITests.swift; sourceTree = "<group>"; };
+		184ABEAC216372100050D4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184ABE812163720B0050D4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ABE98216372100050D4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ABEA3216372100050D4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184ABE7B2163720B0050D4C5 = {
+			isa = PBXGroup;
+			children = (
+				184ABE862163720B0050D4C5 /* ConatctV */,
+				184ABE9E216372100050D4C5 /* ConatctVTests */,
+				184ABEA9216372100050D4C5 /* ConatctVUITests */,
+				184ABE852163720B0050D4C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184ABE852163720B0050D4C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184ABE842163720B0050D4C5 /* ConatctV.app */,
+				184ABE9B216372100050D4C5 /* ConatctVTests.xctest */,
+				184ABEA6216372100050D4C5 /* ConatctVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184ABE862163720B0050D4C5 /* ConatctV */ = {
+			isa = PBXGroup;
+			children = (
+				184ABE872163720B0050D4C5 /* AppDelegate.swift */,
+				184ABE892163720B0050D4C5 /* ViewController.swift */,
+				184ABE8B2163720B0050D4C5 /* Main.storyboard */,
+				184ABE91216372100050D4C5 /* Assets.xcassets */,
+				184ABE93216372100050D4C5 /* LaunchScreen.storyboard */,
+				184ABE96216372100050D4C5 /* Info.plist */,
+				184ABE8E2163720B0050D4C5 /* ConatctV.xcdatamodeld */,
+			);
+			path = ConatctV;
+			sourceTree = "<group>";
+		};
+		184ABE9E216372100050D4C5 /* ConatctVTests */ = {
+			isa = PBXGroup;
+			children = (
+				184ABE9F216372100050D4C5 /* ConatctVTests.swift */,
+				184ABEA1216372100050D4C5 /* Info.plist */,
+			);
+			path = ConatctVTests;
+			sourceTree = "<group>";
+		};
+		184ABEA9216372100050D4C5 /* ConatctVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184ABEAA216372100050D4C5 /* ConatctVUITests.swift */,
+				184ABEAC216372100050D4C5 /* Info.plist */,
+			);
+			path = ConatctVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184ABE832163720B0050D4C5 /* ConatctV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184ABEAF216372100050D4C5 /* Build configuration list for PBXNativeTarget "ConatctV" */;
+			buildPhases = (
+				184ABE802163720B0050D4C5 /* Sources */,
+				184ABE812163720B0050D4C5 /* Frameworks */,
+				184ABE822163720B0050D4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConatctV;
+			productName = ConatctV;
+			productReference = 184ABE842163720B0050D4C5 /* ConatctV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184ABE9A216372100050D4C5 /* ConatctVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184ABEB2216372100050D4C5 /* Build configuration list for PBXNativeTarget "ConatctVTests" */;
+			buildPhases = (
+				184ABE97216372100050D4C5 /* Sources */,
+				184ABE98216372100050D4C5 /* Frameworks */,
+				184ABE99216372100050D4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184ABE9D216372100050D4C5 /* PBXTargetDependency */,
+			);
+			name = ConatctVTests;
+			productName = ConatctVTests;
+			productReference = 184ABE9B216372100050D4C5 /* ConatctVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184ABEA5216372100050D4C5 /* ConatctVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184ABEB5216372100050D4C5 /* Build configuration list for PBXNativeTarget "ConatctVUITests" */;
+			buildPhases = (
+				184ABEA2216372100050D4C5 /* Sources */,
+				184ABEA3216372100050D4C5 /* Frameworks */,
+				184ABEA4216372100050D4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184ABEA8216372100050D4C5 /* PBXTargetDependency */,
+			);
+			name = ConatctVUITests;
+			productName = ConatctVUITests;
+			productReference = 184ABEA6216372100050D4C5 /* ConatctVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184ABE7C2163720B0050D4C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					184ABE832163720B0050D4C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					184ABE9A216372100050D4C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 184ABE832163720B0050D4C5;
+					};
+					184ABEA5216372100050D4C5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 184ABE832163720B0050D4C5;
+					};
+				};
+			};
+			buildConfigurationList = 184ABE7F2163720B0050D4C5 /* Build configuration list for PBXProject "ConatctV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184ABE7B2163720B0050D4C5;
+			productRefGroup = 184ABE852163720B0050D4C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184ABE832163720B0050D4C5 /* ConatctV */,
+				184ABE9A216372100050D4C5 /* ConatctVTests */,
+				184ABEA5216372100050D4C5 /* ConatctVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184ABE822163720B0050D4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ABE95216372100050D4C5 /* LaunchScreen.storyboard in Resources */,
+				184ABE92216372100050D4C5 /* Assets.xcassets in Resources */,
+				184ABE8D2163720B0050D4C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ABE99216372100050D4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ABEA4216372100050D4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184ABE802163720B0050D4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ABE8A2163720B0050D4C5 /* ViewController.swift in Sources */,
+				184ABE882163720B0050D4C5 /* AppDelegate.swift in Sources */,
+				184ABE902163720B0050D4C5 /* ConatctV.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ABE97216372100050D4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ABEA0216372100050D4C5 /* ConatctVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184ABEA2216372100050D4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184ABEAB216372100050D4C5 /* ConatctVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184ABE9D216372100050D4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184ABE832163720B0050D4C5 /* ConatctV */;
+			targetProxy = 184ABE9C216372100050D4C5 /* PBXContainerItemProxy */;
+		};
+		184ABEA8216372100050D4C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184ABE832163720B0050D4C5 /* ConatctV */;
+			targetProxy = 184ABEA7216372100050D4C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184ABE8B2163720B0050D4C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184ABE8C2163720B0050D4C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184ABE93216372100050D4C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184ABE94216372100050D4C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184ABEAD216372100050D4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184ABEAE216372100050D4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184ABEB0216372100050D4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConatctV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToDo.forastar.ConatctV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184ABEB1216372100050D4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConatctV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToDo.forastar.ConatctV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184ABEB3216372100050D4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConatctVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToDo.forastar.ConatctVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConatctV.app/ConatctV";
+			};
+			name = Debug;
+		};
+		184ABEB4216372100050D4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConatctVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToDo.forastar.ConatctVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConatctV.app/ConatctV";
+			};
+			name = Release;
+		};
+		184ABEB6216372100050D4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConatctVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToDo.forastar.ConatctVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConatctV;
+			};
+			name = Debug;
+		};
+		184ABEB7216372100050D4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConatctVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ToDo.forastar.ConatctVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConatctV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184ABE7F2163720B0050D4C5 /* Build configuration list for PBXProject "ConatctV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ABEAD216372100050D4C5 /* Debug */,
+				184ABEAE216372100050D4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184ABEAF216372100050D4C5 /* Build configuration list for PBXNativeTarget "ConatctV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ABEB0216372100050D4C5 /* Debug */,
+				184ABEB1216372100050D4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184ABEB2216372100050D4C5 /* Build configuration list for PBXNativeTarget "ConatctVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ABEB3216372100050D4C5 /* Debug */,
+				184ABEB4216372100050D4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184ABEB5216372100050D4C5 /* Build configuration list for PBXNativeTarget "ConatctVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184ABEB6216372100050D4C5 /* Debug */,
+				184ABEB7216372100050D4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		184ABE8E2163720B0050D4C5 /* ConatctV.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				184ABE8F2163720B0050D4C5 /* ConatctV.xcdatamodel */,
+			);
+			currentVersion = 184ABE8F2163720B0050D4C5 /* ConatctV.xcdatamodel */;
+			path = ConatctV.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 184ABE7C2163720B0050D4C5 /* Project object */;
+}
