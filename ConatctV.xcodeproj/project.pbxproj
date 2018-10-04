@@ -15,6 +15,7 @@
 		184ABE95216372100050D4C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184ABE93216372100050D4C5 /* LaunchScreen.storyboard */; };
 		184ABEA0216372100050D4C5 /* ConatctVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABE9F216372100050D4C5 /* ConatctVTests.swift */; };
 		184ABEAB216372100050D4C5 /* ConatctVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184ABEAA216372100050D4C5 /* ConatctVUITests.swift */; };
+		184ABEBA216372940050D4C5 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184ABEB9216372940050D4C5 /* Contacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		184ABEA6216372100050D4C5 /* ConatctVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConatctVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184ABEAA216372100050D4C5 /* ConatctVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConatctVUITests.swift; sourceTree = "<group>"; };
 		184ABEAC216372100050D4C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184ABEB9216372940050D4C5 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184ABEBA216372940050D4C5 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +86,7 @@
 				184ABE9E216372100050D4C5 /* ConatctVTests */,
 				184ABEA9216372100050D4C5 /* ConatctVUITests */,
 				184ABE852163720B0050D4C5 /* Products */,
+				184ABEB8216372940050D4C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +130,14 @@
 				184ABEAC216372100050D4C5 /* Info.plist */,
 			);
 			path = ConatctVUITests;
+			sourceTree = "<group>";
+		};
+		184ABEB8216372940050D4C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184ABEB9216372940050D4C5 /* Contacts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
